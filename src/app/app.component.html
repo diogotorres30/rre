@@ -8,7 +8,7 @@
       <form [formGroup]="editorForm" (ngSubmit)="onSubmit()">
         <div class="form-group">
           <label for="editor"><h3>Editor</h3></label>
-          <quill-editor></quill-editor>
+          <quill-editor formControlName="editor"></quill-editor>
         </div>
       </form>
     </div>
